@@ -52,5 +52,5 @@ function createLesson()
 
 function setupInitialLessonState(obj)
 {
-    document.getElementById("lessonFormat").innerText = "Format: " + obj.format;
+    document.getElementById("lessonFormat").innerText = JSON.stringify(obj); // TODO: Actually setup initial state, I just want to go to bed.
 }
