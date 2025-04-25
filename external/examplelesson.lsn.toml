@@ -1,0 +1,18 @@
+format = 0.9
+name = "Example"
+
+[symbols] # Defined as name = [symbol, latin]
+peace = ["A", "A"]
+ok = ["B", "B"]
+thumbs-up = ["C", "C"]
+thumbs-down = ["D", "D"]
+point-left = ["E", "E"]
+point-right = ["F", "F"]
+point-up = ["G", "G"]
+point-down = ["H", "H"]
+hand-open = ["I", "I"]
+
+
+[font] # Font only acts on symbols, response text is always in the website's standard font
+font-location = "system" # Can either be "system" for system fonts or "google" for google fonts
+font-name = "wingdings"

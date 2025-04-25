@@ -1,0 +1,46 @@
+{
+  "format": 0.9,
+  "name": "Example",
+  "symbols": {
+    "peace": [
+      "A",
+      "A"
+    ],
+    "ok": [
+      "B",
+      "B"
+    ],
+    "thumbs-up": [
+      "C",
+      "C"
+    ],
+    "thumbs-down": [
+      "D",
+      "D"
+    ],
+    "point-left": [
+      "E",
+      "E"
+    ],
+    "point-right": [
+      "F",
+      "F"
+    ],
+    "point-up": [
+      "G",
+      "G"
+    ],
+    "point-down": [
+      "H",
+      "H"
+    ],
+    "hand-open": [
+      "I",
+      "I"
+    ]
+  },
+  "font": {
+    "font-location": "system",
+    "font-name": "wingdings"
+  }
+}

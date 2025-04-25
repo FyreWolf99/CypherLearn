@@ -1,0 +1,28 @@
+body {
+    background-color: #0E0E1B;
+    color: #FAFAFA;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #917EFF;
+}
+
+.centre {
+    margin: auto;
+    width: 50%;
+}
+
+.btncnt {
+    display: flex;
+    flex-direction: row;
+}
+
+.btncnt button {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 3em;
+}

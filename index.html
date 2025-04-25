@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cypher Learning Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Cypher Learning Tool</h1>
+
+    <div class="centre">
+        <div id="disappearing-act">
+            <p>
+                Hello, if somehow you were sent here without being made aware, this website was made in order to help people
+                teach themselves to be able to read basic substitution cyphers (or possibly alternative alphabets).
+                <br> <br>
+                There are only two options: you can either make an <i>.lsn.json</i> (TOML support coming soon) file or load
+                one made by somebody else.
+            </p>
+    
+            <div class="btncnt">
+                <button onclick="loadLesson()">Choose Lesson File</button>
+                <button onclick="createLesson()">Create New Lesson</button>
+            </div>
+        </div>
+
+        <div id="sudden-appearance" style="display: none;max-height: 0; max-width: 0;">
+            <p id="lessonFormat">peepepoopoo</p>
+        </div>
+    </div>
+</body>
+
+</html>
